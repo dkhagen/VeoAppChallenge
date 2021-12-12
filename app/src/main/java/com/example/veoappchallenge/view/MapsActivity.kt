@@ -194,6 +194,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback,
             == PackageManager.PERMISSION_GRANTED
         ) {
             mMap.isMyLocationEnabled = true
+            getDeviceLocation(true)
         } else {
             // Permission to access the location is missing. Show rationale and request permission
             PermissionsUtils().requestPermission(
