@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">VeoAppChallenge</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="route_api_url_format">http://maps.googleapis.com/maps/api/directions/json?origin=%1$f,%2$f&amp;destination=%3$f,%4$f&amp;sensor=false&amp;mode=walking&amp;alternatives=false</string>
+    <string name="api_key">AIzaSyCyQG1nwFsWsYNiaAnm1jA5r-FpC0bWzQs</string>
+    <string name="permission_rationale">This app is a location based app and needs access to your location to function</string>
+    <string name="toast_tap_to_select_location">Please tap to select a location</string>
+    <string name="reset">Reset</string>
+    <string name="start_trip">Start Trip</string>
+    <string name="end_trip">End Trip</string>
+    <string name="user_arrived">You have arrived!</string>
+    <string name="error_getting_route">An error occurred while retrieving route</string>
+    <string name="trip_complete">Trip Complete</string>
+    <string name="store_trip_question">Would you like to store this trip?</string>
+    <string name="confirm">Yes</string>
+    <string name="decline">No</string>
+    <string name="null_distance">- -</string>
+    <string name="default_time">00:00</string>
+    <string name="default_distance">0.0m</string>
+    <string name="your_trips">Your Trips</string>
+    <string name="delete_trip_prompt">Delete Trip?</string>
+    <string name="delete_trip_message">Would you like to delete this trip?</string>
+    <string name="clear_trips">Clear All Trips</string>
+    <string name="delete_all_trips_prompt">"Delete all trips?"</string>
+    <string name="delete_all_trips_message">Would you like to delete all stored trips?</string>
+    <string name="start_date_label">Start Date</string>
+    <string name="distance_travelled_label">Distance Travelled</string>
+    <string name="trip_duration_label">Trip Duration</string>
+    <string name="avg_speed_label">Avg Speed</string>
+    <string name="view_saved_trips_content_description">View saved trips button</string>
+    <string name="remaining_distance_template">%$1s remaining</string>
+</resources>
